@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/detail"
+    tools:context="com.nanodegree.android.popularmovies.SettingActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/fragment"
+        android:alpha=".2"
+        android:contentDescription="@string/contentDescription"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/bottom_bar"/>
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.nanodegree.android.popularmovies.SettingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="110dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:contentDescription="@string/contentDescription"
+        app:srcCompat="@drawable/setting_logo"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <CheckBoxPreference
+        android:id="@+id/SORTING_ORDER_KEY"
+        android:defaultValue="true"
+        android:key="SORTING_ORDER_KEY"
+        android:summaryOff="Sorting By Rating"
+        android:summaryOn="Sorting By Popularity"
+        android:title="Sort By Popularity"/>
+
+
+</PreferenceScreen>
