@@ -1,7 +1,10 @@
 # PopularMovies
 Second project for the Udacity Android Developer Nanodegree.
 ## Preview
-<a href="https://ibb.co/mraspc"><img src="https://image.ibb.co/kSRyUc/IMDB2.png" alt="IMDB2" border="0"></a>
+<img src="Screenshot.png">
+
+
+
 ## Platform
 Android OS
 ## Features
